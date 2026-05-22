@@ -117,7 +117,7 @@ function PricingCard({ tag, type, desc, oldPrice, price, installment, features, 
             marginBottom: 12,
           }}
         >
-          1º LOTE · 20% OFF
+          1º LOTE
         </div>
         <div style={{ fontFamily: "'Jost', sans-serif", fontSize: 13, color: "var(--mt)", textDecoration: "line-through", fontWeight: 300, marginBottom: 4 }}>
           {oldPrice}
@@ -200,7 +200,7 @@ export function Pricing() {
         {/* Urgency bar */}
         <div style={{ textAlign: "center", background: "linear-gradient(135deg, #9A7318, #C9A84C)", padding: "12px 24px", marginBottom: 32 }}>
           <p style={{ fontFamily: "'Cinzel', serif", fontSize: 11, letterSpacing: "0.3em", color: "#FFF8EE", margin: 0 }}>
-            ⏳ &nbsp; 1º LOTE COM 20% DE DESCONTO — VAGAS LIMITADAS &nbsp; ⏳
+            ⏳ &nbsp; ATENÇÃO: VALORES DO 1º LOTE — ENCERRAM EM BREVE &nbsp; ⏳
           </p>
         </div>
 
@@ -215,9 +215,9 @@ export function Pricing() {
             tag="INGRESSO OURO · 1º LOTE"
             type="Ouro"
             desc="Acesso completo à imersão presencial em Limeira com toda a experiência de transformação ao vivo."
-            oldPrice="De R$ 697"
-            price="R$ 557"
-            installment="ou 12× de R$ 55,70 no cartão"
+            oldPrice="De R$ 997"
+            price="R$ 697"
+            installment="ou 12× de R$ 69,70 no cartão"
             features={ouroFeatures}
             ctaLabel="GARANTIR VAGA OURO"
             ctaHref="https://pay.kiwify.com.br/C7c82mn"
@@ -226,9 +226,9 @@ export function Pricing() {
             tag="INGRESSO VIP · 1º LOTE"
             type="VIP — Experiência Completa"
             desc="Tudo do Ouro + uma experiência exclusiva pensada para quem quer viver a imersão no mais alto nível."
-            oldPrice="De R$ 897"
-            price="R$ 717"
-            installment="ou 12× de R$ 71,70 no cartão"
+            oldPrice="De R$ 1.197"
+            price="R$ 897"
+            installment="ou 12× de R$ 89,70 no cartão"
             features={vipFeatures}
             ctaLabel="GARANTIR VAGA VIP"
             ctaHref="https://pay.kiwify.com.br/PxiONxg"

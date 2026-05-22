@@ -7,36 +7,17 @@ export function Hero() {
       style={{ background: "linear-gradient(160deg, #F0EBE0 0%, #E8DFD0 60%, #DDD0BC 100%)" }}
     >
       {/* Photo */}
-      <div
-        className="relative w-full overflow-hidden"
-        style={{ height: "clamp(380px, 110vw, 720px)" }}
-      >
-        <picture
-          style={{
-            position: "absolute",
-            inset: 0,
-            display: "block",
-            width: "100%",
-            height: "100%",
-          }}
-        >
-          <source
-            media="(max-width: 767px)"
-            srcSet="https://blog.luburger.com.br/wp-content/uploads/2026/03/identidade-1080-x-1920-px-2.png"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcSet="https://blog.luburger.com.br/wp-content/uploads/2026/03/ChatGPT-Image-9-de-mar.-de-2026-07_42_59.png"
-          />
+      <div className="relative w-full overflow-hidden">
+        <picture style={{ display: "block", width: "100%" }}>
+          <source media="(max-width: 767px)" srcSet="/hero-mobile.png" />
+          <source media="(min-width: 768px)" srcSet="/hero-desktop.png" />
           <img
-            src="https://blog.luburger.com.br/wp-content/uploads/2026/03/identidade-1080-x-1920-px-2.png"
-            alt="Lu Burger — Identidade Implacável"
+            src="/hero-desktop.png"
+            alt="Identidade Implacável 9.0 — Transformando vidas"
             style={{
               display: "block",
               width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              objectPosition: "center top",
+              height: "auto",
             }}
           />
         </picture>

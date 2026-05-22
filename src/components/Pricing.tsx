@@ -215,23 +215,23 @@ export function Pricing() {
             tag="INGRESSO OURO · 1º LOTE"
             type="Ouro"
             desc="Acesso completo à imersão presencial em Limeira com toda a experiência de transformação ao vivo."
-            oldPrice="De R$ 997"
-            price="R$ 697"
-            installment="ou 12× de R$ 69,70 no cartão"
+            oldPrice="De R$ 697"
+            price="R$ 557"
+            installment="ou 12× de R$ 55,70 no cartão"
             features={ouroFeatures}
             ctaLabel="GARANTIR VAGA OURO"
-            ctaHref="https://pay.kiwify.com.br/YroRQ7R"
+            ctaHref="https://pay.kiwify.com.br/C7c82mn"
           />
           <PricingCard
             tag="INGRESSO VIP · 1º LOTE"
             type="VIP — Experiência Completa"
             desc="Tudo do Ouro + uma experiência exclusiva pensada para quem quer viver a imersão no mais alto nível."
-            oldPrice="De R$ 1.197"
-            price="R$ 897"
-            installment="ou 12× de R$ 89,70 no cartão"
+            oldPrice="De R$ 897"
+            price="R$ 717"
+            installment="ou 12× de R$ 71,70 no cartão"
             features={vipFeatures}
             ctaLabel="GARANTIR VAGA VIP"
-            ctaHref="https://pay.kiwify.com.br/qf00BOL"
+            ctaHref="https://pay.kiwify.com.br/PxiONxg"
             featured
           />
         </div>

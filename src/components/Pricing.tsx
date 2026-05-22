@@ -217,7 +217,7 @@ export function Pricing() {
             desc="Acesso completo à imersão presencial em Limeira com toda a experiência de transformação ao vivo."
             oldPrice="De R$ 997"
             price="R$ 697"
-            installment="ou 12× de R$ 69,70 no cartão"
+            installment="ou 12× de R$ 72,09 no cartão"
             features={ouroFeatures}
             ctaLabel="GARANTIR VAGA OURO"
             ctaHref="https://pay.kiwify.com.br/C7c82mn"
@@ -228,7 +228,7 @@ export function Pricing() {
             desc="Tudo do Ouro + uma experiência exclusiva pensada para quem quer viver a imersão no mais alto nível."
             oldPrice="De R$ 1.197"
             price="R$ 897"
-            installment="ou 12× de R$ 89,70 no cartão"
+            installment="ou 12× de R$ 92,77 no cartão"
             features={vipFeatures}
             ctaLabel="GARANTIR VAGA VIP"
             ctaHref="https://pay.kiwify.com.br/PxiONxg"

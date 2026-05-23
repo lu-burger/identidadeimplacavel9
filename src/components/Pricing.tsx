@@ -10,7 +10,7 @@ const ouroFeatures = [
   "Acesso integral à imersão presencial",
   "Material exclusivo da imersão",
   "Conexões com outros participantes",
-  "26/09 · Limeira, SP",
+  "08/08 · Limeira, SP",
   <><strong>Café da tarde</strong> incluso no evento</>,
 ];
 
@@ -193,7 +193,7 @@ export function Pricing() {
             className="rv d2"
             style={{ fontFamily: "'Jost', sans-serif", fontSize: 16, fontWeight: 300, color: "var(--txs)", maxWidth: 540, margin: "0 auto 16px", lineHeight: 1.7 }}
           >
-            Escolha o ingresso ideal para você e garanta sua transformação em 26 de Setembro, em Limeira.
+            Escolha o ingresso ideal para você e garanta sua transformação em 8 de Agosto, em Limeira.
           </p>
         </div>
 

@@ -32,7 +32,7 @@ export function Footer() {
           lineHeight: 1.8,
         }}
       >
-        29 de Agosto · Limeira – SP · Vagas Limitadas
+        7 de Setembro · Limeira – SP · Vagas Limitadas
         <br />© 2026 Lu Burger — Todos os direitos reservados
       </p>
     </footer>

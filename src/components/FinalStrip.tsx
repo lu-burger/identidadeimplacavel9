@@ -88,7 +88,7 @@ export function FinalStrip() {
             }}
           >
             {[
-              { n: "29", l: "AGOSTO" },
+              { n: "07", l: "SETEMBRO" },
               { n: "2026", l: "ANO" },
               { n: "Limeira", l: "LOCAL" },
             ].map((item, i, arr) => (

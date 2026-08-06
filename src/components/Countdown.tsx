@@ -6,7 +6,7 @@ function pad(n: number) {
   return String(n).padStart(2, "0");
 }
 
-const TARGET = new Date("2026-09-26T09:00:00");
+const TARGET = new Date("2026-09-07T09:00:00");
 
 export function Countdown() {
   const [time, setTime] = useState({ d: 0, h: 0, m: 0, s: 0 });
